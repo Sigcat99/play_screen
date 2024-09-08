@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    tools {
+        nodejs 'node 18.17'
+}
+
+    stages {
+    stage('Instalar dependencias') {
+        steps {
+            sh 'npm ci -force'
+        }
+    }
+    stage('Ejecutar pruebas') {
+        steps {
+            sh "npx playwright test tests/buy_product_e2e.spec.ts  --project=chromium --headed --max-failures=1"
+        }
+    }
+  }
+}
