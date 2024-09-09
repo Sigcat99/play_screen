@@ -33,7 +33,7 @@ msg : "Your order has been dispatched, and will arrive just as fast as the pony 
 }
 
 
-test('todo el flujo de compra ', async ({ page }) => {
+test('todo el flujo de compra  ', async ({ page }) => {
 
   const user = Actor.named("usuario").can(BrowseTheWeb.using(page));
 
