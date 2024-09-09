@@ -12,7 +12,7 @@
 
 
 ## 📄 Sobre el Proyecto
-En este proyecto se realizo la automatizacion de un proceso de compra de una tienda virtual utilizando el patron de screenplay de la mano de la libre ria open source
+En este proyecto se realizo la automatizacion de un proceso de compra de una tienda virtual utilizando el patron de screenplay de la mano de la libreria open source
 Tesla screenplay core 
 
 ### 🖥️ Web :
